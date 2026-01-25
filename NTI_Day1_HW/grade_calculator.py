@@ -1,3 +1,5 @@
+import numpy as np
+
 numbers = [85, 90, 78, 92, 88]
 total = 0
 count = 0
@@ -6,3 +8,6 @@ for number in numbers:
     count +=1 
     average = total / count
 print("Average:", average)
+
+mean = np.mean(numbers)
+print (mean)
